@@ -21,6 +21,6 @@ Vue.component('masterr', require('./layout/master.vue').default);
 
 const app = new Vue({
 	router,
-	store,
+	store, //errorforstore
   el: '#app'
 });
